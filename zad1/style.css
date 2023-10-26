@@ -1,0 +1,89 @@
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;   
+}
+
+h1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.top{
+    width: 40%;
+    height: 80px;
+    background-color: #ddb786;
+    border-radius: 80px 80px 25px 26px;
+    border-bottom: 10px solid #d2a15f;
+}
+.bottom{
+    width: 40%;
+    height: 80px;
+    background-color: #ddb786;
+    border-radius: 25px 25px 80px 80px;
+    border-top: 10px solid #d2a15f;
+}
+
+.meat{
+    width: 35%;
+    height: 35px;
+    background-color: #cd6434;
+    border-radius: 18px;
+    border-bottom: 5px solid #9d492a;
+}
+
+.cheese{
+    width: 42.5%;
+    height: 15px;
+    background-color: #ffd602;
+    border-bottom: 4px solid #dba61a;
+}
+
+.tomato{
+    width: 28%;
+    height: 40px;
+    background-color: #fe0000;
+    border-bottom: 4px solid #da153a;
+
+}
+
+.onion{
+    width: 28%;
+    height: 35px;
+    background-color: #7f017a;
+    justify-content: space-between;
+    display: flex;
+}
+
+.onion-circle{
+    width: 35px;
+    height: 35px;
+    background-color: #dda0dc;
+    border-radius: 100%;
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: #a52b2a;
+    border-radius: 100%;
+}
+
+.cucumber{
+    width: 25%;
+    height: 60px;
+    background-color: #90f08f;
+    border-radius: 5px 5px 80px 80px;
+    border-bottom: 20px solid #008001;
+}
+
+.plate{
+    width: 50%;
+    height: 20px;
+    background-color: darkgrey;
+    border-radius: 10px 10px 40px 40px;
+    border-top: 10px solid grey;
+}
